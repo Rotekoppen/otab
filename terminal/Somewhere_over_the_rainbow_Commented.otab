@@ -1,0 +1,112 @@
+otab-json{ -- Header tells us that it is an otab file
+	"title": "Somewhere over the rainbow",
+	"artist":"Israel Kamakawiwo'ole",
+	"album":"unknown",
+	"type":"chords", -- what kind of tab this is, chords meaning letters over the lyrics and tab is when the strings are numbered, mixed is both, only chords is implemented
+	"tabber":"Rotekoppen", -- The person who made the tab
+	"sectionOrder":[0, 1, 3, 2, 3, 2, 4], -- What order the sections come in. A section is a part of a tab, that contain chords text lyrics etc
+	"sections": [ -- The actual sections
+
+
+		{
+			"name":"Verse 1", -- Name of the section
+			"type":"lyrics", -- Type of the section, only lyrics and chords is implemented. "lyrics" is lyrics and chords displayed above
+			"lyrics":[
+				{
+					"l":"Somewhere over the rainbow", -- l is the lyric
+					"c":[["C",0], ["Em", 10]] -- this is an array containing the chords and where the chord will be located
+				},
+				{
+					"l":"Way up high",
+					"c":[["F", 0], ["C", 7]]
+				},
+				{
+					"l":"And the dreams that you dreamed of",
+					"c":[["F", 0], ["C", 8]]
+				},
+				{
+					"l":"Once in a lullaby",
+					"c":[["G", 0], ["Am", 15], ["F", 21]]
+				}
+			]
+		},
+
+		{
+			"name":"Verse 2",
+			"type":"lyrics",
+			"lyrics":[
+				{
+					"l":"Somewhere over the rainbow",
+					"c":[["C",0], ["Em", 10]]
+				},
+				{
+					"l":"Blue birds fly",
+					"c":[["F", 0], ["C", 11]]
+				},
+				{
+					"l":"And the dreams that you dreamed of",
+					"c":[["F", 0], ["C", 8]]
+				},
+				{
+					"l":"Dreams really do come true",
+					"c":[["G", 0], ["Am", 22], ["F", 26]]
+				}
+			]
+		},
+
+		{
+			"name":"Verse 3",
+			"type":"lyrics",
+			"lyrics":[
+				{
+					"l":"Somewhere over the rainbow",
+					"c":[["C",0], ["Em", 10]]
+				},
+				{
+					"l":"Blue birds fly",
+					"c":[["F", 0], ["C", 11]]
+				},
+				{
+					"l":"And the dreams that you dreamed of",
+					"c":[["F", 0], ["C", 8]]
+				},
+				{
+					"l":"Oh why oh why can't I",
+					"c":[["G", 0], ["Am", 20], ["F", 26]]
+				}
+			]
+		},
+
+		{
+			"name":"Chorus",
+			"type":"lyrics",
+			"lyrics":[
+				{
+					"l":"Someday I'll wish upon a star",
+					"c":[["C",0]]
+				},
+				{
+					"l":"Wake up where the clouds are far behind me",
+					"c":[["Em", 0], ["Am", 29], ["F", 35]]
+				},
+				{
+					"l":"Where trouble melts like lemon drops",
+					"c":[["C", 0]]
+				},
+				{
+					"l":"High above the chimney tops is where you'll find me",
+					"c":[["Em", 0], ["Am", 31], ["F", 44]]
+				}
+			]
+		},
+
+		{
+			"name":"Ending",
+			"type":"chords", -- chords, is a section containing only chords. example: F G C Am, can also have a fix that for example can indicate how many times the chords should be played. example: F G C Am 2x
+			"prefix":"End on a",
+			"suffix":"",
+			"chords":["C"]
+		}
+
+	]
+}

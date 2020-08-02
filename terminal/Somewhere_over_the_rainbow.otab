@@ -1,0 +1,112 @@
+otab-json{
+	"title": "Somewhere over the rainbow",
+	"artist":"Israel Kamakawiwo'ole",
+	"album":"unknown",
+	"type":"chords",
+	"tabber":"Rotekoppen",
+	"sectionOrder":[0, 1, 3, 2, 3, 2, 4],
+	"sections": [
+
+
+		{
+			"name":"Verse 1",
+			"type":"lyrics",
+			"lyrics":[
+				{
+					"l":"Somewhere over the rainbow",
+					"c":[["C",0], ["Em", 10]]
+				},
+				{
+					"l":"Way up high",
+					"c":[["F", 0], ["C", 7]]
+				},
+				{
+					"l":"And the dreams that you dreamed of",
+					"c":[["F", 0], ["C", 8]]
+				},
+				{
+					"l":"Once in a lullaby",
+					"c":[["G", 0], ["Am", 15], ["F", 21]]
+				}
+			]
+		},
+
+		{
+			"name":"Verse 2",
+			"type":"lyrics",
+			"lyrics":[
+				{
+					"l":"Somewhere over the rainbow",
+					"c":[["C",0], ["Em", 10]]
+				},
+				{
+					"l":"Blue birds fly",
+					"c":[["F", 0], ["C", 11]]
+				},
+				{
+					"l":"And the dreams that you dreamed of",
+					"c":[["F", 0], ["C", 8]]
+				},
+				{
+					"l":"Dreams really do come true",
+					"c":[["G", 0], ["Am", 22], ["F", 26]]
+				}
+			]
+		},
+
+		{
+			"name":"Verse 3",
+			"type":"lyrics",
+			"lyrics":[
+				{
+					"l":"Somewhere over the rainbow",
+					"c":[["C",0], ["Em", 10]]
+				},
+				{
+					"l":"Blue birds fly",
+					"c":[["F", 0], ["C", 11]]
+				},
+				{
+					"l":"And the dreams that you dreamed of",
+					"c":[["F", 0], ["C", 8]]
+				},
+				{
+					"l":"Oh why oh why can't I",
+					"c":[["G", 0], ["Am", 20], ["F", 26]]
+				}
+			]
+		},
+
+		{
+			"name":"Chorus",
+			"type":"lyrics",
+			"lyrics":[
+				{
+					"l":"Someday I'll wish upon a star",
+					"c":[["C",0]]
+				},
+				{
+					"l":"Wake up where the clouds are far behind me",
+					"c":[["Em", 0], ["Am", 29], ["F", 35]]
+				},
+				{
+					"l":"Where trouble melts like lemon drops",
+					"c":[["C", 0]]
+				},
+				{
+					"l":"High above the chimney tops is where you'll find me",
+					"c":[["Em", 0], ["Am", 31], ["F", 44]]
+				}
+			]
+		},
+
+		{
+			"name":"Ending",
+			"type":"chords",
+			"prefix":"End on a",
+			"suffix":"",
+			"chords":["C"]
+		}
+
+	]
+}
