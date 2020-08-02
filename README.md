@@ -1,2 +1,2 @@
 # otab
-Tablature software, currently only in terminal using curses
+Tablature software (mainly targeting Ukulele but other instruments work too), currently only in terminal using curses
